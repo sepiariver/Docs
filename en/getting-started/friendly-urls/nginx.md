@@ -45,6 +45,8 @@ The nginx config file needs to specify the _**same**_ connection in _**both**_ f
 
 An alternative server configuration was suggested [in this forum topic](http://forums.modx.com/thread/70163/furls-not-working-after-upgrade-2-1-3-pl?page=2#dis-post-394442).
 
+Here is another similar [alternative](https://sepiariver.com/modx/nginx-config-for-modx-cms/) that is known to work.
+
 Thanks for posting this, complete with FURL support :)
 
 Question: With **root /home/sites/example.com;** defined at the server level, is it necessary to include again in the first location block?
